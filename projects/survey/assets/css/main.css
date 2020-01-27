@@ -1,18 +1,23 @@
 body{
-  background-color: #222e49;
+  background-color: #9fa8bd;
 }
 .question-container{
-  background-color: #c7e6b6;
+  background-color: #9fa8bd;
   padding-left: : 20px;
-  padding-right: 20px;
+  padding-right: 200px;
 }
 .question{
   font-family: ariel;
 }
 .answer{
   font-size: 20px
+  font-family: 'Roboto', sans-serif;
+}
+.question-container{
+  color: #ffffff
 }
 h1{
   color: white;
-  position: relative;
+  position: center;
+  font-family: 'Roboto', sans-serif;
 }
