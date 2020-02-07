@@ -1,0 +1,107 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: skyblue;
+  margin: 2.5vw auto;
+  position: relative;
+}
+.table{
+  background-color: grey;
+  width: 70vw;
+  height: 12vw;
+  position: relative;
+  top: 79%;
+  right: -9%;
+
+}
+.twoxfour{
+  background-color: white;
+  width: 9vw;
+  height: 12vw;
+  left: 20vw;
+  top: 21vw;
+  position: relative;
+}
+.cam{
+  width: 10vw;
+  height: 5vw;
+  background-color: black;
+  position: relative;
+  left: 65vw;
+  top: 16vw;
+  background-color: black;
+}
+.book_2{
+  width: 10vw;
+  height: 2vw;
+  background-color: #e9e0be;
+  position: relative;
+  left: 53%;
+  top: 3%;
+}
+.book_1{
+  width: 17vw;
+  height: 6vw;
+  background-color: white;
+  position: relative;
+  left: 46%;
+  top: 17%;
+}
+
+.vase {
+  width: 10%;
+  height: 24%;
+  border-radius: 34%;
+  border-bottom-left-radius: 24%;
+  background: white;
+  top: -42%;
+  left: 53%;
+  position: relative;
+  background-color: gray;
+}
+.flower{
+width: 32%;
+height: 22%;
+background: #882c3f;
+top: -65%;
+position: relative;
+left: 40%;
+}
+.cat{
+  width: 9%;
+  height: 18%;
+  background: #ffffe2;
+  top: -4%;
+  position: relative;
+  left: 32%;
+}
+.cat-ear{
+  
+
+}
+
+.stem{
+  width: 1%;
+  height: 12%;
+  background: #75b462;
+  position: relative;
+  top: -78%;
+  left: 58%;
+}
+
+
+
+/* Your CSS goes here */
