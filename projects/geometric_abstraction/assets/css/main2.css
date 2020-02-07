@@ -1,0 +1,31 @@
+
+Body{
+  background-color: red;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}.circle_2{
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}.circle_3 {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+.circle_4 {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}.circle_5 {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}

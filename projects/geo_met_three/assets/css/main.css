@@ -1,0 +1,41 @@
+
+body{
+  width: 100%;
+ height: 100%;
+  background-color:  #fdffe3
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch ;
+  align-content: center;
+  min-height: 800px;
+}
+
+.rectangle {
+  height: 50vh;
+  width: 5vw;
+  background: #fff6c6;
+    }
+    .rectangle_2 {
+      height: 100vh;
+      width: 5vw;
+     background:#ffd2f4;
+     position: relative;
+        }
+
+    .rectangle_3{
+      height: 50vh;
+      width: 5vw;
+     background:#fff6c6;
+     position: sticky;
+
+        }
+        .rectangle_4{
+          height: 100vh;
+          width: 5vw;
+         background:#ffd2f4;
+         position: relative;
+         position: inherit;
+
+            }
