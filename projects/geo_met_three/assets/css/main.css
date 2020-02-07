@@ -14,10 +14,13 @@ body{
 
 .rectangle {
   height: 50vh;
-  width: 5vw;
+  width: 500vw;
   background: #fff6c6;
+  position: fixed;
+  top:10vh;
+
     }
-    .rectangle_2 {
+.rectangle_2 {
       height: 100vh;
       width: 5vw;
      background:#ffd2f4;
@@ -29,13 +32,11 @@ body{
       width: 5vw;
      background:#fff6c6;
      position: sticky;
-
         }
         .rectangle_4{
-          height: 100vh;
+          height: 600vh;
           width: 5vw;
          background:#ffd2f4;
-         position: relative;
-         position: inherit;
+         position: absolute;
 
             }
