@@ -1,0 +1,89 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: pink;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.table{
+  background-color: grey;
+  width: 750px;
+  height: 110px;
+  position: absolute;
+  position: absolute;
+  top: 450px;
+  right: 140px
+}
+.twoxfour{
+  background-color: white;
+  width: 90px;
+  height: 120px;
+  left: 190px;
+  top: 330px;
+  position: absolute;
+}
+.cam{
+width: 80px;
+height: 50px;
+background-color: black;
+position: absolute;
+left: 760px;
+top: 400px;
+background-color: black;
+}
+.book_2{
+background-color: white;
+width: 150px;
+height: 70px;
+background-color: white;
+position: absolute;
+left: 540px;
+top: 330px;
+}
+
+.vase {
+  width: 140px;
+  height: 120px;
+  border-radius: 100px;
+  border-bottom-left-radius:30px;
+  background: white;
+  top: 219px;
+  left: 550px;
+  position: absolute;
+  position: absolute;
+}
+.flower{
+  width: 20px;
+  height: 20px;
+  background:#882c3f;
+  top: -80px;
+  position: absolute;
+  left: 20px;
+}
+.flower_2{
+  width: 20px;
+  height: 20px;
+  background:#882c3f;
+  position: absolute;
+  top: -80px;
+  left: 90px;
+}
+.stem{
+
+}
+ width
+
+/* Your CSS goes here */

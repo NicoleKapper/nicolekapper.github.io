@@ -1,5 +1,64 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #9fa8bd;
+  background-color: #f6ebcd;
 }
+.h1{
+  color: #650c24;
+  font-family: 'Roboto', sans-serif;
+}
+.content{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 16px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */

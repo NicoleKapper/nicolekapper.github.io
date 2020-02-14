@@ -1,0 +1,296 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 59vw;
+  background: #e9e8d2;
+  margin: 2.5vw auto;
+  position: relative;
+}
+.table{
+  background-color: #d4955c;
+  width: 70vw;
+  height: 13vw;
+  position: relative;
+  top: 78%;
+  right: -9%;
+}
+.twoxfour{
+  border-color: black;
+  border-style: solid;
+  border-width: .5vw;
+  border-radius: 10%;
+  background-color: white;
+  width: 9vw;
+  height: 12vw;
+  left: 20vw;
+  top: 21vw;
+  position: relative;
+}
+.text {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.5vw;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 4vw;
+  left: 2vw;
+  z-index: 3
+}
+.line{
+  background-color: black;
+  width: 1vw;
+    height: 8vw;
+    position: relative;
+    top: 19%;
+  right: -9%;
+  z-index: 3
+}
+.cam{
+  width: 11vw;
+  height: 6vw;
+  background-color: black;
+  position: relative;
+  left: 65vw;
+  top: 16vw;
+  z-index: 1;
+  border-color: pink;
+}
+.lens {
+    width: 4vw;
+    height: 4vw;
+    background: #474b48;
+    top: 1vw;
+    position: absolute;
+    left: 4vw;
+    z-index: 2;
+    border-radius: 50%;
+}
+.click {
+  width: 2vw;
+  height: 1vw;
+  background: black;
+  top: -1vw;
+  position: absolute;
+  left: 1vw;
+  z-index: 1;
+}
+.flash {
+  width: 1vw;
+  height: 1vw;
+  background: #b32525;
+  top: 1vw;
+  position: absolute;
+  left: 2vw;
+  z-index: 1;
+}
+.book_2{
+  width: 12vw;
+  height: 2vw;
+  background-color: #c2c086;
+  position: relative;
+  left: 51%;
+  top: 3%;
+}
+.book_1{
+  width: 17vw;
+  height: 6vw;
+  background-color: white;
+  position: relative;
+  left: 46%;
+  top: 17%;
+}
+
+.vase {
+  width: 10%;
+  height: 24%;
+  border-radius: 34%;
+  border-bottom-left-radius: 24%;
+  background: white;
+  top: -42%;
+  left: 53%;
+  position: relative;
+  background-color: gray;
+}
+.flower{
+width: 32%;
+height: 22%;
+background: #00d6d6;
+top: -65%;
+position: relative;
+left: 40%;
+}
+
+.cat {
+  position: relative;
+  width: 9%;
+  height: 18%;
+  background: #dad8b9;
+  top: -4%;
+  left: 32%;
+  z-index: 2;
+  border-radius: 30%;
+}
+
+.eye1 {
+  position: relative;
+  width: 12%;
+  height: 13%;
+  background: black;
+  border-radius: 50%;
+  left: 24%;
+  top: 16%;
+}
+
+.eye2 {
+  position: relative;
+  width: 11%;
+  height: 13%;
+  background: black;
+  border-radius: 50%;
+  left: 65%;
+  top: 3%;
+}
+.ear1 {
+  display: block;
+  width: 25%;
+  height: 23%;
+  background-color: #dad8b9;
+  top: -15%;
+  left: 59%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  z-index: 3;
+}
+
+.ear2 {
+  display: block;
+  width: 25%;
+  height: 23%;
+  background-color: #dad8b9;
+  top: -15%;
+  left: 17%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  z-index: 3;
+}
+.nose{
+display: block;
+width: 10%;
+height: 9%;
+background-color: black;
+top: 28%;
+left: 46%;
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+position: absolute;
+z-index: 3;
+}
+
+.red {
+  position: relative;
+  width: 99%;
+  height: 10%;
+  background: #b62a2a;
+  left: 1%;
+  top: 20%;
+}
+.green{
+  position: relative;
+  width: 22%;
+  height: 15%;
+  background-color: green;
+  top: 19%;
+  left: 40%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 3;
+}
+.paw1{
+  position: relative;
+  width: 23%;
+  height: 22%;
+  background-color: #d6c495;
+  top: -2%;
+  left: 12%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 3;
+}
+.paw2{
+  position: relative;
+  width: 23%;
+  height: 22%;
+  background-color: #d6c495;
+  top: -23%;
+  left: 67%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 3;
+}
+
+.stem{
+  width: 1%;
+  height: 12%;
+  background: #75b462;
+  position: relative;
+  top: -78%;
+  left: 58%;
+}
+.window{
+  width: 31%;
+height: 46%;
+background: #584c06;
+position: relative;
+top: -117%;
+left: 14%;
+}
+.open1{
+  width: 12%;
+  height: 18%;
+  background: lightblue;
+  position: relative;
+  top: -159%;
+  left: 17%;
+  z-index: 3;
+}
+.open2{
+  width: 12%;
+  height: 18%;
+  background: lightblue;
+  position: relative;
+  top: -177%;
+  left: 30%;
+  z-index: 3;
+}
+.open3{
+  width: 12%;
+  height: 18%;
+  background: lightblue;
+  position: relative;
+  top: -174%;
+  left: 17%;
+  z-index: 3;
+}
+.open4{
+  width: 12%;
+  height: 18%;
+  background: lightblue;
+  position: relative;
+  top: -192%;
+  left: 30%;
+  z-index: 3;
+}
+
+
+
+
+
+
+/* Your CSS goes here */
