@@ -26,10 +26,12 @@
 }
 
 .title{
+  position: fixed;
   font-family: 'pink-flamingo-bold';
   font-size: 45px;
   columns: 1;
-  color: #a007b9;  
+  color: #a007b9;
+
 }
 .body-text{
   text-align: justify;
