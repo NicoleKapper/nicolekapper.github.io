@@ -5,6 +5,28 @@
        url('assets/fonts/cakesans-bold-webfont.woff') format('woff');
   font-style: normal;
 }
+
+/* Tablet breakpoint */
+@media (min-width:500px){
+  body {
+    font-size: 50px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 70px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 60px;
+  }
+}
+
 .row{
   display:flex;
 }
@@ -24,8 +46,15 @@
 .col-3{
  width: 20%;
 }
+.cap{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: black;
+  font-size: 15px;
+  columns: 1
+}
 
-.title{
+.h1{
   position: fixed;
   font-family: 'pink-flamingo-bold';
   font-size: 45px;
@@ -34,7 +63,7 @@
 
 }
 .body-text{
-  text-align: justify;
+  text-align: center
   font-family: 'Merriweather', serif;
   color: black;
   font-size: 25px;
@@ -45,14 +74,20 @@
   color: #a007b9;
   font-size: 40px;
 }
-
+.site{
+  font-family: 'Merriweather', serif;
+  color: #a007b9;
+  font-size: 40px;
+}
 .people{
+  align-content: center;
   width: 20vw;
   top: 50%;
   left: 15vw;
   position: relative;
 }
 .zines{
+  align-content: center;
   width: 20vw;
   top: 50%;
   left: 15vw;
@@ -69,4 +104,15 @@
   top: 50%;
   left: 15vw;
   position: relative;
+}
+@media print {
+  blockquote {
+    page-break-before: always;
+  }
+  h3, h4 {
+    page-break-after: avoid;
+  }
+  p {
+    orphans: 3;
+  }
 }
