@@ -31,8 +31,8 @@ body{
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
 }
-.body{
-  text-decoration: none;
+.text{
+  style: none;
   color: black;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
