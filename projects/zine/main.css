@@ -1,0 +1,41 @@
+{ box-sizing: border-box }
+body{
+  margin:0;
+  background-color: black;
+  font-family: 'Source Sans Pro', ;
+
+}
+
+/* .container {
+  font-family: 'Open Sans', ;
+    background-color: white;
+    min-height: 50vh;
+    display: flex;
+  } */
+
+.title {
+  font-size: 12vw;
+  font-family: 'Source Sans Pro', ;
+  color: white ;
+  margin: auto;
+  text-align: left;
+}
+.small-title {
+  font-size: 4vw;
+  font-family: 'Source Sans Pro', ;
+  text-align: left;
+  color: white ;
+}
+.row {
+  display: flex;
+  margin-top: 2vw;
+}
+.row {
+  display: flex;
+  margin-top: 1vw;
+}
+
+.col {
+  flex: 1;
+  padding: 20px;
+}
