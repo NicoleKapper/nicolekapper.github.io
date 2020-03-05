@@ -420,26 +420,33 @@ animation: pulse 2s infinite;
 }
 .title {
   font-size: 40 px;
+  color: black;
   page-break-after: always;
   margin-left: 1vh;
 }
 .small-title {
   font-size: 20px;
+  color: black;
   /* margin-top: 5vh; */
   margin-bottom: 45vh;
 }
 .small-question {
   display: block;
+  color: black;
   font-size: 20px;
 }
 .small-answer {
   display: block;
   font-size: 15px;
+  color: black;
+
 
 }
 .wbox {
 page-break-after: always;
 margin-bottom: 45vh;
+color: black;
+
 
 }
 .file {
@@ -471,32 +478,3 @@ top: 45vh;
 }
 
 }
-
-/* @media print {
-  body { font-size: 10pt;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .small-question, .small-answer {
-    page-break-before: always;
-  }
-} */
-
-/* @media print {
-
-    body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-  .small-question, .small-answer {
-    page-break-before: always;
-  }
-  /* h3,  {
-    page-break-after: avoid;
-  }
-  pre, blockquote {
-    page-break-inside: avoid;
-  }
