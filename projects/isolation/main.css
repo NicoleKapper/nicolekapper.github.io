@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+  box-sizing: border-box;
+
+}
+.public{
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.private{
+  font-size: 4vw;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.file-1{
+  position: absolute;
+  width: 47vw;
+    height: 57vw;
+    top: 7vw;
+    left: 2vw;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.file-2{
+  position: absolute;
+  width: 47vw;
+    height: 57vw;
+    top: 7vw;
+    left: 50vw;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.img{
+  position: absolute;
+  width: 47vw;
+  height: 57vw;
+  top: 7vw;
+  left: 4vw;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.small-title {
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.col  {
+  float: left;
+  width: 33.33%;
+  /* width: 100%;
+  padding-left: 3px;
+  padding-right: px; */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
