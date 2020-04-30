@@ -44,6 +44,10 @@ a:link, a:visited {
   border: 0.4vw solid;
   background-color:#3ac5f9 ;
     margin-top: 1vw;
+    align-content: center;
+    margin-left: 45vw;
+    justify-content: space-between;
+    margin-bottom: 2vw;
 }
 
 .image {
