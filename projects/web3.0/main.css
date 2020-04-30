@@ -1,0 +1,150 @@
+
+body{
+  font-family: 'Domine', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.Domine {
+    font-family: 'Domine';
+}
+
+.Roboto {
+  font-family: 'Roboto';
+}
+.container {
+	margin: 4vw;
+	height: 100%;
+}
+.title {
+  margin: auto;
+  font-family: 'Domine', serif;
+}
+.small-title {
+  font-family: 'Roboto', sans-serif;
+}
+.text{
+  margin-left: 3vw;
+}
+a:link, a:visited {
+
+    text-decoration: none;
+}
+.box {
+    display: flex;
+    margin-bottom: 1vw;
+}
+.artist {
+  line-height: 3.5vw;
+  border: 0.4vw solid;
+  background-color: #9d3be9;
+  padding: 2vw;
+  font-size: 2.8vw;
+}
+.page {
+  border: 0.4vw solid;
+  background-color:#3ac5f9 ;
+    margin-top: 1vw;
+}
+
+.image {
+    width: 28vw;
+    height: 35vw;
+    border: black 0.4vw solid;
+}
+.hold{
+  display: flex;
+  margin-bottom: 1vw;
+}
+.click-image {
+    width: 48vw;
+    height: 62vw;
+    border: black 0.4vw solid;
+}
+
+.row-one {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2vw;
+    color: black;
+}
+
+
+.col-one {
+  border: black 0.4vw solid;
+  color: black;
+  background-color: #ff911f;
+  padding: 2vw;
+  margin-top: 3vw;
+  margin-left: 0vw;
+  font-size: 3.8vw;
+
+}
+
+.col-two{
+    border: black 0.4vw solid;
+    background-color:#3ac5f9 ;
+    padding: 2vw;
+    margin-top: 3vw;
+    font-size: 3.8vw;
+
+}
+.col-three{
+    border: black 0.4vw solid;
+    color: black;
+    background-color:  #5deb1a;
+    padding: 2vw;
+    margin-top: 3vw;
+    font-size: 3.8vw;
+
+}
+.col-four{
+    border: black 0.4vw solid;
+    color: black;
+    background-color: #9d3be9 ;
+    padding: 2vw;
+    margin-top: 3vw;
+    font-size: 3.8vw;
+}
+
+
+.row-two {
+  display: flex;
+justify-content: space-between;
+margin-top: 15vw;
+margin-bottom: 9vw;
+padding-left: 3vw;
+padding-right: 3vw;
+}
+
+.row-three {
+  display: flex;
+justify-content: space-between;
+margin-bottom: 9vw;
+padding-left: 3vw;
+padding-right: 3vw;
+}
+
+
+.row-four {
+  display: flex;
+justify-content: space-between;
+margin-bottom: 9vw;
+padding-left: 3vw;
+padding-right: 3vw;
+}
+
+.row-five {
+  display: flex;
+	justify-content: space-between;
+	margin-bottom: 9vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.row-six {
+  display: flex;
+	justify-content: space-between;
+	margin-bottom: 9vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
