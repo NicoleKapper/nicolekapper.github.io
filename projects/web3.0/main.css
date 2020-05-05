@@ -19,6 +19,12 @@ font-family: 'Roboto', sans-serif;
   margin: auto;
   font-family: 'Domine', serif;
 }
+
+.title:hover {
+     background-position: left bottom;
+     background-color: white;
+ }
+
 .small-title {
   font-family: 'Roboto', sans-serif;
 }
@@ -35,8 +41,9 @@ a:link, a:visited {
 }
 .artist {
   line-height: 3.5vw;
-  border: 0.4vw solid;
-  background-color: #9d3be9;
+  border-bottom: black 0.4vw solid;
+  border-right: black 0.4vw solid;
+  border-left: black 0.4vw solid;  background-color: #9d3be9;
   padding: 2vw;
   font-size: 2.8vw;
 }
@@ -49,6 +56,14 @@ a:link, a:visited {
     justify-content: space-between;
     margin-bottom: 2vw;
 }
+.about {
+  line-height: 3.5vw;
+  border: black 0.4vw solid;
+  background-color: #9d3be9;
+  padding: 2vw;
+  font-size: 2.8vw;
+}
+
 
 .image {
     width: 28vw;
@@ -64,6 +79,11 @@ a:link, a:visited {
     height: 62vw;
     border: black 0.4vw solid;
 }
+.fill {
+    display: flex;
+    line-height: 2vw;
+    color: black;
+}
 
 .row-one {
     display: flex;
@@ -74,6 +94,7 @@ a:link, a:visited {
 
 
 .col-one {
+  display: flex;
   border: black 0.4vw solid;
   color: black;
   background-color: #ff911f;
@@ -85,7 +106,11 @@ a:link, a:visited {
 }
 
 .col-two{
-    border: black 0.4vw solid;
+    background-color: #3ac5f9;
+    padding: 2vw;
+    border-bottom: black 0.4vw solid;
+    border-top: black 0.4vw solid;
+    border-left: black 0.4vw solid;
     background-color:#3ac5f9 ;
     padding: 2vw;
     margin-top: 3vw;
@@ -93,7 +118,9 @@ a:link, a:visited {
 
 }
 .col-three{
-    border: black 0.4vw solid;
+    border-bottom: black 0.4vw solid;
+    border-top: black 0.4vw solid;
+    border-left: black 0.4vw solid;
     color: black;
     background-color:  #5deb1a;
     padding: 2vw;
@@ -101,6 +128,41 @@ a:link, a:visited {
     font-size: 3.8vw;
 
 }
+.home{
+  display: flex;
+  border: black 0.4vw solid;
+  color: black;
+  background-color: #ff911f;
+  padding: 2vw;
+  margin-top: 3vw;
+  margin-left: 0vw;
+  font-size: 3.8vw;
+
+}
+
+.print{
+    display: flex;
+    justify-content: center;
+    border: black 0.4vw solid;
+    padding: 2vw;
+    background-color:#3ac5f9 ;
+    padding: 2vw;
+    margin-top: 0vw;
+    font-size: 3.8vw;
+
+}
+.link{
+  display: flex;
+    justify-content: center;
+    border: black 0.4vw solid;
+    color: black;
+    background-color:  #5deb1a;
+    padding: 2vw;
+    margin-top: -1vw;
+    font-size: 3.8vw;
+
+}
+
 .col-four{
     border: black 0.4vw solid;
     color: black;
